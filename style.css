@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header__top {
+    padding: 20px 0;
+    background-color: #fff;
+    align-items: center;  
+}
+/* .header__logo img {
+    width: 50%;
+} */
+.nav a {
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.nav__link--btn {
+    border: 2px solid green;
+    color: green ;
+    transition: color 0.7s;
+}
+.nav__link--btn:hover {
+    background-color: green;
+    color: #fff;
+}
+.header__banner {
+    position: relative;
+    background: url('./images/images/slider.jpg') fixed center / cover no-repeat;
+    color: #fff;
+}
+.header__content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 25%;
+}
+
+.header__title {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 50px 0 30px 0;
+    font-weight: lighter;  
+}
+.header__subtitle{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+.header__paragraph{
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+.header__subtitle--spacing{
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+.full__container{
+    padding: 30px 0;
+}
+.event__next-event{
+    color: green;
+}
+.event__timing{
+    color: #000;
+}
+.event--btn{
+    background-color: green; 
+    padding: 12px 30px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.event__register a{
+    text-decoration: none;
+    color: #fff;
+}
+.collaborate{
+    padding: 50px 0;
+}
+.collaborate__subtitle{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.collaborate__paragraph{
+    line-height: 25px;
+}
+.collaborate__link{
+
+    padding: 8px 28px;
+    border: 1px solid green;
+}
+.collaborate__block a{
+    text-decoration: none;
+    color: green;
+    transition: color 0.7s ease-in-out;
+}
+.collaborate__link:hover{
+    background-color: green;
+    color: #fff;
+}
+.mission__heading{
+    background-color: #ccc;
+    padding: 30px 20% 0;  
+}
+.block-title{
+    text-transform: uppercase;
+    
+    font-size: 30px;
+    font-weight: 400;
+}
+.mission__subtitle{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.mission__invitation{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.mission__icon{
+    color: rgb(63, 175, 201);
+}
+.mission__title{
+    font-size: 20px;
+    color: rgb(63, 175, 201);
+    padding: 15px 0;
+}
+footer{
+    background-color: rgba(51, 37, 37, 0.79);
+    padding: 35px 0;
+    color: #ccc;
+}
+.footer__copyright hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.footer__copyright a {
+    text-decoration: none;
+}
+
+
+
+
+

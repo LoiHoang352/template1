@@ -1,0 +1,27 @@
+@media screen and (max-width:768px) {
+    .header__content{
+        padding: 0 10%;
+    }
+    .nav a {
+        font-size: 13px;
+        padding: 10px 13px;
+    }
+    .event__register {
+        width: 100%;
+        margin-top: 20px;
+       text-align: center;
+    }
+    .mission__heading{
+        padding: 20px 10% 0;  
+    }
+}
+@media screen and (max-width:576px) {
+    .header {
+        text-align: center;
+    }
+    .header__logo img {
+        width: 80% !important;
+        margin-bottom: 15px;
+    }
+   
+}
