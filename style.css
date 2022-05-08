@@ -73,7 +73,10 @@ html {
     cursor: pointer;
     margin-top: auto;
     margin-bottom: auto;
+
 }
+
+
 .event__register a{
     text-decoration: none;
     color: #fff;
